@@ -36,6 +36,7 @@ extension ViewController: UITableViewDataSource{
         return (nameBank.count)
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
@@ -43,6 +44,18 @@ extension ViewController: UITableViewDataSource{
         
         let age = arc4random_uniform(90)+5
         cell.detailTextLabel?.text = "\(age) years old"
+        
+        // detailTextLabel > reference the storyboard > Table view cell > style = "right detail"
+        // this created two columns in the same table view.
+        
+        // alternative way: create function for arc4random:
+        
+            //        func ageRand() -> Int{
+            //            let age : Int = Int(arc4random_uniform(90)+5)
+            //            return age
+            //        }
+                    // cell.detailTextLabel?.text = "\(ageRand()) years old"
+        
         return cell
     }
 }
