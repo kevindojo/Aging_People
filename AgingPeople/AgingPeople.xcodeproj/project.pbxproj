@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375BC1BE1FB1351600EB33D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BC1BD1FB1351600EB33D8 /* AppDelegate.swift */; };
+		375BC1C01FB1351600EB33D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BC1BF1FB1351600EB33D8 /* ViewController.swift */; };
+		375BC1C31FB1351600EB33D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375BC1C11FB1351600EB33D8 /* Main.storyboard */; };
+		375BC1C51FB1351600EB33D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375BC1C41FB1351600EB33D8 /* Assets.xcassets */; };
+		375BC1C81FB1351600EB33D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375BC1C61FB1351600EB33D8 /* LaunchScreen.storyboard */; };
+		375BC1D31FB1351600EB33D8 /* AgingPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375BC1D21FB1351600EB33D8 /* AgingPeopleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375BC1CF1FB1351600EB33D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375BC1B21FB1351600EB33D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375BC1B91FB1351600EB33D8;
+			remoteInfo = AgingPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375BC1BA1FB1351600EB33D8 /* AgingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375BC1BD1FB1351600EB33D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		375BC1BF1FB1351600EB33D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		375BC1C21FB1351600EB33D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375BC1C41FB1351600EB33D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		375BC1C71FB1351600EB33D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		375BC1C91FB1351600EB33D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375BC1CE1FB1351600EB33D8 /* AgingPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgingPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375BC1D21FB1351600EB33D8 /* AgingPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgingPeopleUITests.swift; sourceTree = "<group>"; };
+		375BC1D41FB1351600EB33D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375BC1B71FB1351600EB33D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BC1CB1FB1351600EB33D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375BC1B11FB1351600EB33D8 = {
+			isa = PBXGroup;
+			children = (
+				375BC1BC1FB1351600EB33D8 /* AgingPeople */,
+				375BC1D11FB1351600EB33D8 /* AgingPeopleUITests */,
+				375BC1BB1FB1351600EB33D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375BC1BB1FB1351600EB33D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375BC1BA1FB1351600EB33D8 /* AgingPeople.app */,
+				375BC1CE1FB1351600EB33D8 /* AgingPeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375BC1BC1FB1351600EB33D8 /* AgingPeople */ = {
+			isa = PBXGroup;
+			children = (
+				375BC1BD1FB1351600EB33D8 /* AppDelegate.swift */,
+				375BC1BF1FB1351600EB33D8 /* ViewController.swift */,
+				375BC1C11FB1351600EB33D8 /* Main.storyboard */,
+				375BC1C41FB1351600EB33D8 /* Assets.xcassets */,
+				375BC1C61FB1351600EB33D8 /* LaunchScreen.storyboard */,
+				375BC1C91FB1351600EB33D8 /* Info.plist */,
+			);
+			path = AgingPeople;
+			sourceTree = "<group>";
+		};
+		375BC1D11FB1351600EB33D8 /* AgingPeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				375BC1D21FB1351600EB33D8 /* AgingPeopleUITests.swift */,
+				375BC1D41FB1351600EB33D8 /* Info.plist */,
+			);
+			path = AgingPeopleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375BC1B91FB1351600EB33D8 /* AgingPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375BC1D71FB1351600EB33D8 /* Build configuration list for PBXNativeTarget "AgingPeople" */;
+			buildPhases = (
+				375BC1B61FB1351600EB33D8 /* Sources */,
+				375BC1B71FB1351600EB33D8 /* Frameworks */,
+				375BC1B81FB1351600EB33D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgingPeople;
+			productName = AgingPeople;
+			productReference = 375BC1BA1FB1351600EB33D8 /* AgingPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375BC1CD1FB1351600EB33D8 /* AgingPeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375BC1DA1FB1351600EB33D8 /* Build configuration list for PBXNativeTarget "AgingPeopleUITests" */;
+			buildPhases = (
+				375BC1CA1FB1351600EB33D8 /* Sources */,
+				375BC1CB1FB1351600EB33D8 /* Frameworks */,
+				375BC1CC1FB1351600EB33D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375BC1D01FB1351600EB33D8 /* PBXTargetDependency */,
+			);
+			name = AgingPeopleUITests;
+			productName = AgingPeopleUITests;
+			productReference = 375BC1CE1FB1351600EB33D8 /* AgingPeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375BC1B21FB1351600EB33D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kevin Pham";
+				TargetAttributes = {
+					375BC1B91FB1351600EB33D8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					375BC1CD1FB1351600EB33D8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 375BC1B91FB1351600EB33D8;
+					};
+				};
+			};
+			buildConfigurationList = 375BC1B51FB1351600EB33D8 /* Build configuration list for PBXProject "AgingPeople" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375BC1B11FB1351600EB33D8;
+			productRefGroup = 375BC1BB1FB1351600EB33D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375BC1B91FB1351600EB33D8 /* AgingPeople */,
+				375BC1CD1FB1351600EB33D8 /* AgingPeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375BC1B81FB1351600EB33D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BC1C81FB1351600EB33D8 /* LaunchScreen.storyboard in Resources */,
+				375BC1C51FB1351600EB33D8 /* Assets.xcassets in Resources */,
+				375BC1C31FB1351600EB33D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BC1CC1FB1351600EB33D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375BC1B61FB1351600EB33D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BC1C01FB1351600EB33D8 /* ViewController.swift in Sources */,
+				375BC1BE1FB1351600EB33D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BC1CA1FB1351600EB33D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BC1D31FB1351600EB33D8 /* AgingPeopleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375BC1D01FB1351600EB33D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375BC1B91FB1351600EB33D8 /* AgingPeople */;
+			targetProxy = 375BC1CF1FB1351600EB33D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375BC1C11FB1351600EB33D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375BC1C21FB1351600EB33D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375BC1C61FB1351600EB33D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375BC1C71FB1351600EB33D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375BC1D51FB1351600EB33D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		375BC1D61FB1351600EB33D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375BC1D81FB1351600EB33D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR3NU5G956;
+				INFOPLIST_FILE = AgingPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AgingPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		375BC1D91FB1351600EB33D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR3NU5G956;
+				INFOPLIST_FILE = AgingPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AgingPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		375BC1DB1FB1351600EB33D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR3NU5G956;
+				INFOPLIST_FILE = AgingPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AgingPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgingPeople;
+			};
+			name = Debug;
+		};
+		375BC1DC1FB1351600EB33D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR3NU5G956;
+				INFOPLIST_FILE = AgingPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AgingPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgingPeople;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375BC1B51FB1351600EB33D8 /* Build configuration list for PBXProject "AgingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BC1D51FB1351600EB33D8 /* Debug */,
+				375BC1D61FB1351600EB33D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375BC1D71FB1351600EB33D8 /* Build configuration list for PBXNativeTarget "AgingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BC1D81FB1351600EB33D8 /* Debug */,
+				375BC1D91FB1351600EB33D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375BC1DA1FB1351600EB33D8 /* Build configuration list for PBXNativeTarget "AgingPeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BC1DB1FB1351600EB33D8 /* Debug */,
+				375BC1DC1FB1351600EB33D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375BC1B21FB1351600EB33D8 /* Project object */;
+}
