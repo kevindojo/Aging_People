@@ -22,19 +22,8 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         // Do any additional setup after loading the view, typically from a nib.
         
-        ageNum = Int(arc4random_uniform(90)+5)
-        
     }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -51,6 +40,9 @@ extension ViewController: UITableViewDataSource{
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
         cell.textLabel?.text = nameBank[indexPath.row]
+        
+        let age = arc4random_uniform(90)+5
+        cell.detailTextLabel?.text = "\(age) years old"
         return cell
     }
 }
